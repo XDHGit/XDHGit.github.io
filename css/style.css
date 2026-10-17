@@ -401,6 +401,9 @@ section.block{padding:80px 0}
 .profile-card .contact-list a,.profile-card .contact-list span{font-size:13.5px;color:var(--text-mid);display:flex;gap:10px;align-items:center;transition:.22s}
 .profile-card .contact-list a:hover{color:var(--primary)}
 .profile-card .contact-list em{font-style:normal;width:20px;text-align:center}
+.profile-card .qr-box{margin-top:22px;padding-top:20px;border-top:1px dashed var(--border);text-align:center}
+.profile-card .qr-box img{width:210px;max-width:100%;border-radius:14px;border:1px solid var(--border);display:block;margin:0 auto;background:#fff}
+.profile-card .qr-box .cap{display:block;margin-top:10px;font-size:13px;color:var(--text-dim)}
 
 .timeline{position:relative;padding-left:34px;margin-top:10px}
 .timeline::before{content:"";position:absolute;left:9px;top:10px;bottom:10px;width:2px;background:linear-gradient(180deg,var(--primary),var(--accent))}
